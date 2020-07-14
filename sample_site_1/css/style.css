@@ -1,0 +1,172 @@
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*line-height: 2;*/
+  /*16px = 1em = 100%; em or % is a dynamic font size. if we add another font size to the body then it adds up.
+  whereas in px it doesnt happens. rem is root-em n doesnt care about parents instructions*/
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted;
+    height: 0;
+    width: 15%;
+    margin: 70px auto 70px auto;
+    border-width: 10px 0 0 0;
+    color: #EAF6F6;
+}
+
+a {
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.aboutme{
+  width: 30%;
+  margin: auto;
+
+}
+
+.middle-container {
+margin-bottom: 50px;
+}
+
+.bottom-container {}
+
+.profile-image{
+  height: 220px;
+  width: 190px;
+  border-radius: 100%;
+  margin: 50px auto auto;
+}
+.ico-image {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.ico-image2 {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  /*if we want some part of the text to not float, then we can use clear: left or right in its class to unfloat it*/
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+.bottom-container{
+  background-color: #66DFDF;
+  padding: 30px;
+}
+
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.contact_message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  color: #EAF6F6;
+  font-weight: bold;
+
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+padding: 8px;
+width: 140px;
+height: 20px;
+border:  #337FED 1px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+
+.btn:hover {
+border: solid #337FED 1px;
+background: #30E3CB;
+background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+text-decoration: none;
+}
